@@ -1,0 +1,1 @@
+select city.id, city.name, city.countrycode, city.district, city.population from city (nolock) where city.population > 100000 and city.countrycode = 'USA';
