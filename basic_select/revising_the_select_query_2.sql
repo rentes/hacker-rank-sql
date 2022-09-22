@@ -1,0 +1,1 @@
+select city.name from CITY (nolock) where city.population > 120000 and city.countrycode = 'USA';
