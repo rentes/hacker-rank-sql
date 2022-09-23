@@ -1,0 +1,1 @@
+select count(station.city) - count(distinct station.city) from station (nolock);
