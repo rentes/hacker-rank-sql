@@ -1,0 +1,2 @@
+select top 1 station.city c, len(station.city) l from station (nolock) group by station.city order by l asc, c asc;
+select top 1 station.city c, len(station.city) l from station (nolock) group by station.city order by l desc, c desc;
