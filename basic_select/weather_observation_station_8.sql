@@ -1,0 +1,1 @@
+select distinct station.city from station (nolock) where station.city like '[aeiou]%[aeiou]';
