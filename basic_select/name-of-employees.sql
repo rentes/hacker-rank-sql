@@ -1,0 +1,1 @@
+select name from employee (nolock) order by name asc;
