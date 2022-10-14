@@ -1,0 +1,1 @@
+select employee.name from employee (nolock) where employee.salary > 2000 and employee.months < 10 order by employee.employee_id asc;
