@@ -1,0 +1,1 @@
+select avg(city.population) from city (nolock) where city.district = 'California';
