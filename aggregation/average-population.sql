@@ -1,0 +1,1 @@
+select round(avg(city.population), 0) from city (nolock);
