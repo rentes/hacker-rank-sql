@@ -1,0 +1,1 @@
+select sum(city.population) from city (nolock) where city.countrycode = 'JPN';
